@@ -1,0 +1,35 @@
+/*.test{*/
+    /*font-family: "Heiti SC";*/
+    /*font-size: 40px;*/
+    /*color: darkseagreen;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+/*}*/
+
+head{
+    width: auto;
+    height: 200px;
+    background-color: #FF0000;
+}
+.test:link{
+    font-family: "Heiti SC";
+    font-size: 40px;
+    color: darkseagreen;
+    text-align: center;
+    text-decoration: none;
+}
+.test:visited{
+    color: firebrick;
+    font-size:30px;
+}
+.test:hover{
+    font-family: "Songti SC";
+    font-size: 100px;
+    text-decoration: line-through;
+    color: aqua;
+    cursor: no-drop;
+}
+.test:active{
+    color:deeppink;
+    font-size: 15px;
+}
