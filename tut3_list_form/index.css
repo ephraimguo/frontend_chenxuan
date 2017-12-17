@@ -1,0 +1,10 @@
+ul{
+    /*list-style-type: lower-greek;*/
+    list-style-image: url("http://img5.imgtn.bdimg.com/it/u=4216558676,3574394065&fm=27&gp=0.jpg");
+    list-style-position: inside;
+}
+
+li{
+    border: 1px solid #ff2222;
+
+}
