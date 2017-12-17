@@ -1,3 +1,29 @@
-ul{
-    list-style-type: none;
+*{padding:0; margin:0;}
+a{text-decoration: none; color: white;}
+.nav-box{width:210px;}
+.nav-top{
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    padding: 0 10px;
+    background: #B1191A;
+    color: white;
 }
+
+ul{
+    list-style: none;
+    background: #c81623;
+}
+li {
+    /*border: 1px solid yellow;*/
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 8px;
+    /*background-image: url('../image/caret_icon.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 190px 6px;*/
+    color: #fff;
+    background: url('../image/caret_icon.png') no-repeat 190px center;
+}
+
