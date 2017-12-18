@@ -1,0 +1,15 @@
+p,h1{
+    color: #B1191A;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+p>a{
+    color: yellowgreen;
+}
+/*h1 span{*/
+    /*color: green;*/
+/*}*/
+h1>span{
+    color: green;
+}
