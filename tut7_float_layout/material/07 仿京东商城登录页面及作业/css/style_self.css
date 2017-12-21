@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: #B1191A;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.border_red{
+    border: 2px solid red;
+}
+
+.border_blue{
+    border: 2px dashed blue;
+}
+
+body{
+    color: #666;
+    font-family: Helvetica Heiti SC, sans-serif;
+    font-size: 14px;
+}
+
+.wrap{
+    /*height: 60px;*/
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo-box{
+    /*display: inline-block;*/
+    height: 60px;
+    width: 990px;
+    padding-top: 10px;
+}
+
+.logo-box a img{
+    display: inline-block;
+}
+
+.slogen{
+    display: inline-block;
+    /*float:left;*/
+    font-size: 24px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+
+.login-box{
+    overflow: visible;
+    height: 475px;
+    background-color: #e93854;
+    margin-top: 15px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.login-box .wrap{
+    height: 475px;
+    background-image: url("../img/banner.png");
+}
+
+.container{
+    width: 346px;
+    height: 280px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
+    box-sizing:border-box;
+    padding: 20px 20px;
+}
+
+.container h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.container h2 a{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 21px;
+    background: url("../img/login-icons.png") no-repeat -104px -73px;
+}
+
+
+
+.login-box .container form .usr,.pwd{
+    width: auto;
+    height: 38px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding-left: 38px;
+    background: url("../img/login-icons.png") no-repeat;
+    border:1px #bdbdbd solid;
+}
+
+.item input{
+    /*display: block;*/
+    width: 308px;
+    /*height: 30px;*/
+    line-height: 38px;
+    border: none;
+    border-left:1px #bdbdbd solid;
+    font-size: 14px;
+    color: #e4e4e4;
+}
+
+.login-box .container form .usr{
+    background-position: 0 0;
+}
+
+.login-box .container form .pwd{
+    background-position: -48px 0;
+}
+
+.check{
+    font-size: 12px;
+}
+
+.check .pwd_forget{
+    display: block;
+    color: #666;
+}
+
+.container form .button_login{
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 308px;
+    height: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background-color: #ff2222;
+}
+
+.container form .button_login:hover{
+    text-decoration: none;
+}
+
+.nav{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: auto;
+}
+
+.nav ul li{
+    display: inline-block;
+
+}
+
+.nav ul li a{
+    color:#666;
+    font-size: 12px;
+    margin: 0 8px;
+}
+
+.footer .copy {
+    margin: 10px;
+    text-align: center;
+    font-size: 11px;
+}

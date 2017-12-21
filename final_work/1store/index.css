@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, "Heiti SC", sans-serif;
+    font-size: 12px;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.border_red{
+    border: 1px solid red;
+}
+
+.border_blue{
+    border: 1px dashed blue;
+}
+
+
+/*Header bar css start here*/
+
+.header-bar{
+    height: 30px;
+    width: auto;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.header-container{
+    height: 30px;
+    width: 1200px;
+    line-height: 30px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.log-rg{
+    color: #82878A;
+}
+a.log-rg{
+    color: #4191e0;
+    text-decoration: none;
+}
+a.log-rg:hover{
+    text-decoration: underline;
+}
+
+.header-nav{
+    text-align: right;
+    display: inline-block;
+    float: right;
+    height: 30px;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+}
+
+.header-nav li{
+    display: inline-block;
+    float: right;
+    /*border: 1px dashed blue;*/
+    height: 30px;
+    line-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+
+}
+
+.header-bar li a{
+    text-decoration: none;
+    color:#9a9999;
+    cursor: pointer;
+}
+.header-menu{
+    padding-left: 3px;
+}
+
+.header-sep{
+    font-size: 16px;
+    color: #e4e4e4;
+}
+
+.caret{
+    /*display: inline-block;*/
+    /*height: 30px;*/
+    /*width: 20px;*/
+    /*background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat -282px -252px;*/
+}
+
+.header-nav label{
+    display: inline-block;
+    height: 30px;
+    width: 20px;
+    background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat -282px -252px;
+    float: right;
+    cursor: pointer;
+}
+
+.drop-down{
+    position: absolute;
+    background-color: transparent;
+    right: 385px;
+    top: 18px;
+    display: none;
+}
+.drop-down li{
+    height: 15px;
+    margin: 0
+}
+
+/*header bar css ends here*/
