@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 body{
@@ -49,6 +50,12 @@ a:hover{
 
 }
 
+.container{
+    margin: auto;
+    box-sizing: border-box;
+    width: auto;
+}
+
 .header-container{
     height: 30px;
     width: 1200px;
@@ -75,9 +82,10 @@ a.log-rg:hover{
     height: 30px;
     /*border: 1px solid red;*/
     box-sizing: border-box;
+    position: relative;
 }
 
-.header-nav li{
+.header-nav>li{
     display: inline-block;
     float: right;
     /*border: 1px dashed blue;*/
@@ -104,12 +112,12 @@ a.log-rg:hover{
     color: #e4e4e4;
 }
 
-.caret{
-    /*display: inline-block;*/
-    /*height: 30px;*/
-    /*width: 20px;*/
-    /*background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat -282px -252px;*/
-}
+/*.caret{*/
+    /*!*display: inline-block;*!*/
+    /*!*height: 30px;*!*/
+    /*!*width: 20px;*!*/
+    /*!*background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat -282px -252px;*!*/
+/*}*/
 
 .header-nav label{
     display: inline-block;
@@ -122,14 +130,302 @@ a.log-rg:hover{
 
 .drop-down{
     position: absolute;
-    background-color: transparent;
-    right: 385px;
-    top: 18px;
+    background-color: white;
+    right: 145px;
+    top: 23px;
+    width:54px;
     display: none;
+    box-sizing: border-box;
 }
 .drop-down li{
-    height: 15px;
-    margin: 0
+    display: block;
+    /*width:70px;*/
+    height: 18px;
+    margin: 2px auto;
+    line-height: 18px;
 }
 
+/*.drop-down-nav{*/
+    /*display: block;*/
+    /*width: 70px;*/
+    /*height: 20px;*/
+
+/*}*/
+
 /*header bar css ends here*/
+
+/*logo and search banner*/
+.logo-srch-bar{
+    height: 175px;
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.logo-container{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding-right: 150px;
+    /*border: 1px solid red;*/
+}
+.srch-bar {
+    float: left;
+    margin-top: 49px;
+    margin-bottom: 50px;
+    width: 610px;
+    height: 32px;
+    text-align: center;
+    /*-webkit-box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*box-sizing: border-box;*/
+    border: 2px solid red;
+}
+
+.scrh-item{
+    display: inline-block;
+    float: left;
+    height:32px;
+    line-height: 32px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+label.scrh-item{
+    width: 80px;
+    background-color: #eeeeee;
+    color: #666666;
+}
+input.scrh-item{
+    width: 430px;
+}
+a.scrh-item{
+    width: 100px;
+    color: white;
+    background-color: #ff2222;
+}
+
+.hot-scrh li a{
+    display: inline-block;
+    float: left;
+    color: #9c9c9c;
+    font-size: 13px;
+    margin: 0 3px;
+    margin-top: 6px;
+
+}
+/*logo and search bar end here*/
+
+
+
+/*main nav banner start here*/
+.nav-nav{
+    /*float:left;*/
+    width: 1200px;
+    height: 40px;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav-nav-nav{
+    width:1000px;
+    float:left;
+    margin: 0px;
+}
+
+.main-nav-bar{
+    background-color: red;
+    float:left;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.main-nav-bar a{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+.main-nav-bar span{
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat -275px -1203px;
+}
+
+.main-nav-item li{
+    display:inline-block;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    width: auto;
+
+    margin: 0 30px;
+}
+.main-nav-item li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*main nav banner end here*/
+
+
+/*main nav container start here*/
+
+.main-nav-container{
+    background-color: #d53e2e;
+    margin-top: 0;
+    height: 388px;
+    border: #d53e2e 2px solid;
+}
+
+.main-nav-banner{
+    background-color: #d53e2e;
+    height:384px;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+/*.main-nav-list{*/
+    /*background-color: #b13e39;*/
+    /*width: 220px;*/
+/*}*/
+
+.main-nav-menu{
+    width:210px;
+    float: left;
+}
+
+.main-nav-banner li{
+    /*display: block;*/
+    position:relative;
+    /*z-index:;*/
+    /*background-color: darkred;*/
+    height: 32px;
+    width: 210px;
+    /*border: 1px solid black;*/
+    /*line-height: 32px;*/
+    box-sizing: border-box;
+    /*background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat 200px -1150px;*/
+
+
+}
+
+.main-nav-btn a{
+    display: block;
+    /*height:30px;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid black;*/
+    line-height: 32px;
+    float: left;
+    width: 210px;
+    color: #fff;
+    background: url("1号店首页简化版/img/indexhead_sprite.png") no-repeat 200px -1150px;
+    background-color: #b13e39;
+}
+.main-nav-btn div{
+    display: inline-block;
+    /*border: 1px solid black;*/
+    /*box-sizing: border-box;*/
+    /*border: 1px solid black;*/
+    float: left;
+    width: 38px;
+    height: 30px;
+    padding-right: 8px;
+    background-image: url("1号店首页简化版/img/nav.png");
+    background-repeat: no-repeat ;
+}
+
+#span_1{
+    background-position: 12px 3px;
+}
+#span_2{
+    background-position: 12px -44px;
+}
+#span_3{
+    background-position: 12px -87px;
+}
+#span_4{
+    background-position: 12px -130px;
+}
+#span_5{
+    background-position: 12px -168px;
+}
+#span_6{
+    background-position: 12px -208px;
+}
+#span_7{
+    background-position: 12px -248px;
+}
+#span_8{
+    background-position: 12px -288px;
+}
+#span_9{
+    background-position: 12px -328px;
+}
+#span_10{
+    background-position: 12px -366px;
+}
+#span_11{
+    background-position: 12px -401px;
+}
+#span_12{
+    background-position: 12px -440px;
+}
+
+.shortcut-container{
+    display: inline-block;
+    height: 384px;
+    width: 240px;
+    background-color: #FFFFFF;
+    /*position: relative;*/
+    float: right;
+}
+
+.slider-container{
+    height: 384px;
+    position: relative;
+    float:right;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.slider-container ul{
+    width: auto;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    right: 350px;
+    z-index: 2;
+}
+
+.slider-container ul li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+}
+
+.slider-container ul li span{
+    display: inline-block;
+    /*float: left;*/
+    width: 18px;
+    height: 18px;
+    background-color: #cbcccd;
+    z-index: 3;
+}
+
+.slider-container ul li .active{
+    background-color: #ea4e46;
+}

@@ -7,11 +7,12 @@
     <script rel="script" src="index.js"></script>
 </head>
 <body>
+<!--header begin here-->
 <div class="header-bar">
     <div class="header-container">
         <span class="log-rg">Hi&nbsp,&nbsp请</span><a class="log-rg" href="#">登录</a><span class="log-rg">&nbsp/&nbsp</span><a class="log-rg" href="#">注册</a>
 
-        <ul class="header-nav ">
+        <ul class="header-nav">
             <li><a href="">关于我们</a></li>
             <li class="header-sep ">|</li>
             <li class="header-menu"><a id="menu1" href="#">网站导航</a><label for="menu1"></label></li>
@@ -23,19 +24,125 @@
             <li class="header-menu" ><a id="menu4" href="#">收藏夹</a><label for="menu4"></label></li>
             <li class="header-sep">|</li>
             <li class="header-menu"><a id="menu5" href="#">我的一号店</a><label for="menu5"></label></li>
+
+            <div id="drop-down" class="drop-down" onmousemove="mouseOver()" onmouseleave="mouseOut()">
+                <ul class="drop-down-nav">
+                    <li><a href="#">包裹跟踪</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">在线投诉</a></li>
+                    <li><a href="#">配送范围</a></li>
+                </ul>
+            </div>
         </ul>
 
-        <div id="drop-down" class="drop-down" onmousemove="mouseOver()" onmouseleave="mouseOut()">
-            <ul class="drop-down-nav">
-                <li><a href="#">包裹跟踪</a></li>
-                <li><a href="#">常见问题</a></li>
-                <li><a href="#">在线投诉</a></li>
-                <li><a href="#">配送范围</a></li>
+
+    </div>
+</div>
+<!--header end here-->
+
+
+<!--nav and slider-->
+<div class="container">
+    <div class="logo-srch-bar">
+        <div class="logo-container">
+            <img src="1号店首页简化版/img/logo.png" alt="Logo">
+        </div>
+        <div class="srch-bar">
+            <label class="scrh-item" for="scrh-txt">商品</label><input class="scrh-item"type="text" id="scrh-txt" placeholder="&nbsp&nbsp请输入关键字"><a class="scrh-item" href="#">搜索</a>
+            <ul class="hot-scrh">
+                <li><a href="">毛巾</a></li>
+                <li><a href="">卫生纸</a></li>
+                <li><a href="">电池</a></li>
+                <li><a href="">洗发露</a></li>
+                <li><a href="">衣服</a></li>
+                <li><a href="">鞋子</a></li>
             </ul>
         </div>
-    </div>
+        <div class="container nav-nav ">
+            <div class="nav-nav-nav">
+                <div class="main-nav-bar ">
+                <a href="#" class="">所有商品分类</a><span class="main-nav-caret"></span>
+                </div>
+                <ul class="main-nav-list">
+                    <div class="main-nav-item">
+                        <li><a class="hot" href="#">首页</a></li>
+                        <li><a class="hot" href="#">自营</a></li>
+                        <li><a class="hot" href="#">1号团</a></li>
+                        <li><a href="#">1号商城</a></li>
+                        <li><a href="#">闪购</a></li>
+                        <li><a href="#">活色生鲜</a></li>
+                        <li><a href="#">1号钱包</a></li>
 
-<!--<div class="caret right "></div>-->
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="container main-nav-container">
+    <div class="main-nav-banner">
+        <ul class="main-nav-list">
+            <div class="container main-nav-menu">
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_1"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_2"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_3"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_4"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_5"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_6"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_7"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_8"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_9"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_10"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_11"></div>XX</a>
+                </li>
+                <li class="main-nav-btn"><a href="#">
+                    <div id="span_12"></div>XX</a>
+                </li>
+
+            </div>
+        </ul>
+
+
+        <div class="shortcut-container">
+
+        </div>
+
+        <div class="slider-container">
+            <div class="img-container">
+                <img src="1号店首页简化版/img/banner.jpg" alt="Slider">
+            </div>
+            <ul class="">
+                <li><span class="active"></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+                <li><span></span></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
 </body>
 </html>
